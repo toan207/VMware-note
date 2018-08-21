@@ -12,4 +12,3 @@
   - Hypervisor Type 2.
 #### 1. Hypervisor Type 1 - Native - Bare metal - Hypervisor based:
 - Đây là loại hypervisor chạy trực tiếp trên phần cứng của máy chủ, không thông qua một OS (hệ điều hành) nào cả, vì vậy còn có tên gọi là Bare-metal.
-<img src = "https://viblo.asia/uploads/37e79944-f59c-4253-bc0f-8c5b39c0e11c.png">
