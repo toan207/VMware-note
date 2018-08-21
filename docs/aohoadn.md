@@ -1,26 +1,26 @@
 ## Ảo hóa là gì?
 - Là một cách gọi khi tạo các máy ảo trên một máy tính lớn.
 ### Các loại ảo hóa
-#### Ảo hóa hệ điều hành hay tạo máy ảo
+#### 1. Ảo hóa hệ điều hành hay tạo máy ảo
 - Từ một máy tính vật lý thông thường có thể chạy song song 2 hệ điều hành.  
 - Các thao tác trên máy ảo được thực hiện tương tự như trên máy thực, việc trao đổi dữ liệu giữa máy ảo và máy thực dễ dàng thực hiện.  
 
-#### Ảo hóa phần cứng
+#### 2. Ảo hóa phần cứng
 - Tạo máy ảo bằng cách ảo hóa phần cứng.  
 - Máy thực dùng để ảo hóa không cần có hệ điều hành từ trước, thay vào đó, sẽ ảo hóa trực tiếp trên phần cứng của máy thực.  
 
-#### Ổ đĩa ảo
+#### 3. Ổ đĩa ảo
 - Ổ đĩa ảo giúp máy tính đọc được các file có đuôi .ios hay .img mà không cần phải thêm các phần mềm hỗ trợ trên máy tính.  
 
-#### Desktop ảo
+#### 4. Desktop ảo
 - Giúp người dùng có thể truy cập vào cùng một màn hình làm việc chung ở bất kỳ đâu mà không cần phải mang theo chiếc máy tính đó.
 
-#### RAM ảo
+#### 5. RAM ảo
 - RAM ảo được tạo ra bằng cách tập hợp chung hết các RAM thực có trên máy tính của hệ thống và tạo thành một RAM tổng.
 - RAM tổng này sẽ được sử dụng chung cho tất cả các máy tính trong hệ thống.
 - Các máy tính trong hệ thống máy chủ có thể truy cập và sử dụng RAM tổng này mà không bị giới hạn phần cứng.
 
-#### Máy chủ ảo (VPS – Virtual Private Server)
+#### 6. Máy chủ ảo (VPS – Virtual Private Server)
 - Máy chủ ảo được tạo ra bằng phương pháp phân chia tài nguyên trên máy chủ vật lý thông thường. 
 - Một máy chủ vật lý có thể tạo ra nhiều máy chủ ảo. 
 - Máy chủ ảo hoạt động như một máy chủ vật lý thông thường với đầy đủ các chức năng: tạo môi trường lưu trữ, kết nối và chia sẻ.
