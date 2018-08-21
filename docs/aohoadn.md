@@ -15,6 +15,6 @@
 - Vị trí hoạt động của nó dựa vào mô hình sau:
 <img src = "https://github.com/toan207/VMware-note/blob/master/images/1%20-%20Hypervisor%20Type%201%20-%201.png">
 - Đúng với tên gọi bare-metal của nó những hypervisor này được cài đặt trực tiếp lên máy chủ mà không thông qua bất kỳ 1 OS nào và thường sẽ được đính kèm theo một phần mềm quản trị để người dùng có thể tiện thao tác  
->Ví dụ như với VMware ESX thì có phần mềm kèm theo là VMware vSphere Client.  
+- Ví dụ như với VMware ESX thì có phần mềm kèm theo là VMware vSphere Client.  
 
 <img src = "https://github.com/toan207/VMware-note/blob/master/images/1%20-%20Hypervisor%20Type%201%20-%202.png">
