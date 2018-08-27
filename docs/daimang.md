@@ -13,6 +13,7 @@
 - DHCP (Dynamic Host Configuration) server ảo đảm nhiệm việc cung cấp địa chỉ IP cho các máy ảo trong việc kết nối máy ảo vào các Switch ảo không có tính năng Bridged (VMnet0) là NAT và host only.
 ### 4. LAN Segment.
 - Các card mạng của máy ảo có thể gắn kết với nhau thành từng LAN Segment. Không giống như VMnet, LAN Segment chỉ kết nối các máy ảo được gán trong một LAN Segment lại với nhau mà không có những tính năng như DHCP và LAN Segment không thể kết nối ra máy thật như các Virtual Switch VMnet.
+>LAN Segment rất ít được sử dụng trong công việc.
 ## Dải mạng trong máy ảo
 - Mỗi máy ảo sẽ có 3 loại dải mạng để lựa chọn kết nối:
   - Dải mạng Brided.
