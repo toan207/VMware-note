@@ -21,5 +21,7 @@
   - Dải mạng host-only.  
   
 **1. Dải mạng Bridged:** sử dụng switch ảo VMnet0, card mạng của máy ảo này gắn trực tiếp với card mạng của máy tính thật. Máy ảo sẽ đóng vai trò như một máy trong mạng thật, có thể nhận được DHCP từ mạng ngoài hoặc đặt IP tĩnh cùng dải với mạng ngoài để có thể giao tiếp với các máy tính ngoài mạng hay lên Internet.  
+
 **2. Dải NAT (Network Address Translation):** sử dụng switch ảo VMnet8 kết nối với máy thật, sử dụng IP của máy thật để giao tiếp với các mạng ngoài. Máy ảo được cấp IP nhờ DHCP ảo của VMware và máy thật sẽ đóng vai trò là NAT server cho các máy ảo.  
+
 **3. Dải host-only:** 
