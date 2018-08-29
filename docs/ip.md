@@ -21,12 +21,12 @@ Subnet mask là một số 32 Bit gồm các Bit 1 và 0 – Các Bit 1 ở các
 ## TCP/IP
 **Bộ giao thức TCP/IP** (Internet protocol suite – Bộ giao thức liên mạng) là một bộ các giao thức truyền thống cài đặt chồng giao thức mà Internet và hầu hết các mạng máy tính thương mại đang chạy trên đó.
 TCP/IP gồm 4 tầng:  
-- Tầng Ứng Dụng: Là nơi các chương trình mạng thường dùng làm việc nhất nhằm liên lạc giữa các nút trong một mạng
-- Tầng Giao Vận: Kết hợp các khả năng truyền thông điệp trực tiếp không phụ thuộc vào mạng bên dưới, kèm theo kiểm soát lỗi, phân mảnh và điều khiển lưu lượng.
-- Tầng Mạng:
+- **Tầng ứng dụng:** Là nơi các chương trình mạng thường dùng làm việc nhất nhằm liên lạc giữa các nút trong một mạng
+- **Tầng giao vận:** Kết hợp các khả năng truyền thông điệp trực tiếp không phụ thuộc vào mạng bên dưới, kèm theo kiểm soát lỗi, phân mảnh và điều khiển lưu lượng.
+- **Tầng mạng:**
   - Giải quyết các vấn đề dẫn các gói tin qua một mạng đơn. 
   - Dẫn đường cho dữ liệu từ mạng nguồn đến mạng đích.
-- Tầng Liên Kết
+- **Tầng liên kết:**
   - Chuyển các gói tin từ tầng mạng tơi các máy chủ khác nhau.
   - Là nơi các tập tin được chặn để gửi qua một mạng riêng ảo
   - Còn có thể xem là bao gồm cả tầng vật lý.
