@@ -24,4 +24,4 @@
 
 **2. Dải NAT (Network Address Translation):** sử dụng switch ảo VMnet8 kết nối với máy thật, sử dụng IP của máy thật để giao tiếp với các mạng ngoài. Máy ảo được cấp IP nhờ DHCP ảo của VMware và máy thật sẽ đóng vai trò là NAT server cho các máy ảo.  
 
-**3. Dải host-only:** 
+**3. Dải host-only:**  Ở chế độ này, Switch ảo không được kết nối gì với các card vật lý của máy tính thật, Vmware có lựa chọn cho phép Vmware là 1 thiết bị cấp phát DHCP cho các thiết bị kết nối vào Switch ảo. Các thiết bị nối đến Switch ảo này sẽ nhận được địa chỉ do chính VMware cấp. Các máy tính ở chế độ Host-Only có cùng dải IP sẽ kết nối được với nhau.
