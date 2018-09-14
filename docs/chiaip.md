@@ -16,10 +16,10 @@ Ví dụ:
 |Bước nhảy|	128|	64|	32|	16|	8|	4|	2|	1|  
 
 - Sau khi mượn 2 bit, ta có cấu trúc mới ở dạng nhị phân là:
-  - Địa chỉ NetMask: 255.255.255.192
+  - Địa chỉ NetMask: 255.255.255.11111111.11111111.11111111.11000000 (2 bit mượn ta đặt là 1)
   - Network ID: 11111111.11111111.11111111.11
   - Host ID: 000000  
-
+  - Địa chỉ NetMask dạng thập phân: 255.255.255.192
 **Bước 3: Xác định bước nhảy**
 - Địa chỉ IP mới lúc này là: 192.168.1.0 / 26 (26 = 24 + 2 bit mượn)
 - Bước nhảy: k = 64
