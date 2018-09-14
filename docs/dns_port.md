@@ -18,5 +18,7 @@
 ### Port
 - Hay còn được gọi là **cổng giao tiếp**.
 - Có tất cả 65535 **port** được chia thành 3 đoạn: Well Known Port (WKP), Registered Port (RP) và Dynamic/Private Port (D/PP).
-- **Port** để khi chúng ta dùng nhiều dịch vụ khác nhau trên máy tính được phân biệt dịch vụ này với dịch vụ khác. Như khi gửi thu, bức thư sẽ có địa chỉ người nhận để tránh nhầm lẫn trong lúc gửi. Mỗi dịch vụ sẽ có một port riêng điển hình như web (port 80), mail (port 25), ftp (port 21)...
+- **Port** để khi chúng ta dùng nhiều dịch vụ khác nhau trên máy tính được phân biệt dịch vụ này với dịch vụ khác. Như khi gửi thu, bức thư sẽ có địa chỉ người nhận để tránh nhầm lẫn trong lúc gửi. Tương tự với máy tính, bạn phải cho biết server đang lắng nghe (listening) ở port nào để client biết và gửi yêu cầu. Router trong mô hình bên dưới giữ vai trò như một người gác cổng. Nó sẽ mở các port dịch vụ trong mạng. Mỗi dịch vụ sẽ có một port riêng điển hình như web (port 80), mail (port 25), ftp (port 21)...
+<img src = "http://www.pcworld.com.vn/pcworld/info/misc/2009/9/O0909_8_1.jpg">
+
 - Đoạn **WKP** gồm các port từ 0 đến 1023, **RP** gồm các port từ 1024 đến 49151, còn **D/PP** là các port từ 49152 đến 65535. IANA qui định **WKP** và **RP** phải được đăng ký với IANA (iana.org) trước khi sử dụng.
